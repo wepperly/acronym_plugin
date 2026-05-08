@@ -1,3 +1,5 @@
+# This is a modification of the Fearless Acronym Extension for NRAO use.
+# https://github.com/FearlessSolutions/acronym_plugin
 # Fearless Acronym Extension
 
 This extension adds an icon to the browser bar that, when clicked, displays a search dropdown. When users perform a search, full and partial matches are returned. Users select which acronym files are relevant to them via the extension options.
@@ -6,9 +8,9 @@ This extension adds an icon to the browser bar that, when clicked, displays a se
 
 ## Setup
 
-1. Clone or [download](https://github.com/FearlessSolutions/acronym_plugin/archive/master.zip) the acronym project
+1. Clone or [download](https://github.com/wepperly/acronym_plugin/archive/master.zip) the acronym project
 
-`git clone https://github.com/FearlessSolutions/acronym_plugin.git`
+`git clone https://github.com/wepperly/acronym_plugin`
 
 2. In Chrome, navigate to the Extentions page (Window > Extensions).
 

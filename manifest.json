@@ -1,7 +1,7 @@
 {
-  "name": "Fearless Acronyms",
+  "name": "Fearless NRAO Acronyms",
   "description": "Select an acronym to expand it.",
-  "version": "1.0",
+  "version": "1.1",
   "manifest_version": 3,
 
   "action": {
