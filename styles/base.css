@@ -4,6 +4,8 @@
   font-weight: 700;
   font-size: 10pt;
   margin: 0;
+  width: 400px;
+  min-height: 100px;
 }
 
 .nrao_acro_submit {
