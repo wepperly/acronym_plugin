@@ -1,6 +1,6 @@
 .nrao_acro_extension {
   color: #0693e3;
-  font-family: Montserrat, Open Sans, sans-serif;
+  font-family:"Source Sans Pro","ProximaNova-Regular",Helvetica,Roboto,Arial,sans-serif;
   font-weight: 700;
   font-size: 10pt;
   margin: 0;
@@ -9,7 +9,7 @@
 .nrao_acro_submit {
   color: #fff;
   background: #0693e3;
-  font-family: Montserrat, Open Sans, sans-serif;
+  font-family:"Source Sans Pro","ProximaNova-Regular",Helvetica,Roboto,Arial,sans-serif;
   font-weight: 700;
   outline: none;
   border: none;
