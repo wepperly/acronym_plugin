@@ -1,9 +1,9 @@
 // reference location for acronym files for the entire extension
 // organize alphabetically by 'name'
 const fileReference = [
-  {
+/*  {
     ref: "af",
-    name: "Air Force",
+  	  name: "Air Force",
     default: false,
     url:
       "https://raw.githubusercontent.com/FearlessSolutions/acronym_plugin/master/acronyms/af.json",
@@ -57,13 +57,14 @@ const fileReference = [
     url:
       "https://raw.githubusercontent.com/FearlessSolutions/acronym_plugin/master/acronyms/phrase.json",
   },
- {
+*/ 
+  {
     ref: "nrao",
     name: "NRAO",
     default: true,
     url:
-      "https://raw.githubusercontent.com/wepperly/acronym_plugin/master/acronyms/NRAO-Acronyms.json",
-  }
+      "https://raw.githubusercontent.com/wepperly/acronym_plugin/main/acronyms/NRAO-Acronyms.json",
+  },
 ];
 
 export { fileReference };
