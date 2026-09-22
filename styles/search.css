@@ -16,6 +16,8 @@
 }
 
 #nrao_acro_results {
+  max-width: 90vw;
+  width: 400px;
   font-weight: 500;
   margin: 0;
   padding: 8px;
