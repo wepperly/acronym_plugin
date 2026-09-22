@@ -1,4 +1,6 @@
 #nrao_acro_title {
+  max-width: 90vw;
+  width: 400px;
   color: #fff;
   background: linear-gradient(#012e57, #0088bb);
   font-size: 14pt;
@@ -16,8 +18,6 @@
 }
 
 #nrao_acro_results {
-  max-width: 90vw;
-  width: 400px;
   font-weight: 500;
   margin: 0;
   padding: 8px;
