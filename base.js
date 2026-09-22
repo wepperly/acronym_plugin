@@ -57,6 +57,13 @@ const fileReference = [
     url:
       "https://raw.githubusercontent.com/FearlessSolutions/acronym_plugin/master/acronyms/phrase.json",
   },
+ {
+    ref: "nrao",
+    name: "NRAO",
+    default: true,
+    url:
+      "https://raw.githubusercontent.com/wepperly/acronym_plugin/master/acronyms/NRAO-Acronyms.json",
+  }
 ];
 
 export { fileReference };

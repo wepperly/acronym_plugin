@@ -1,11 +1,11 @@
 {
   "name": "Fearless NRAO Acronyms",
   "description": "Select an acronym to expand it.",
-  "version": "1.1",
+  "version": "1.1.1",
   "manifest_version": 3,
 
   "action": {
-    "default_icon": "./images/fearless-logo128.png",
+    "default_icon": "./images/nraoLogo.png",
     "default_popup": "./search-dropdown/search.html"
   },
 
