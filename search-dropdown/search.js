@@ -23,7 +23,7 @@ import { fileReference } from "../base.js";
           var node = document.createElement("li");
           var style = document.createElement("strong");
           var styleTextNode = document.createTextNode(acronyms[i].abbreviation);
-          var textnode = document.createTextNode(`: ${acronyms[i].title} (${acronyms[i].categorty})`);
+          var textnode = document.createTextNode(`: ${acronyms[i].title} (${acronyms[i].category})`);
           var descnode = acronyms[i].description;
           node.title = descnode || "No details";
           style.appendChild(styleTextNode);
