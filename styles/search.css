@@ -1,27 +1,27 @@
-#fearless_tla_title {
+#nrao_acro_title {
   color: #fff;
-  background: #5c3977;
+  background: #151B54;
   font-size: 14pt;
   text-align: center;
   padding: 10px;
   margin: 0;
 }
 
-#fearless_tla_search_form {
+#nrao_acro_search_form {
   padding: 8px;
 }
 
-#fearless_tla_search_form input {
+#nrao_acro_search_form input {
   margin: 3px 0px;
 }
 
-#fearless_tla_results {
+#nrao_acro_results {
   font-weight: 500;
   margin: 0;
   padding: 8px;
   clear: both;
 }
 
-#fearless_tla_results li {
+#nrao_acro_results li {
   padding: 6px 0px;
 }

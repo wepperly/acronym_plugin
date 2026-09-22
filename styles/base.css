@@ -1,4 +1,4 @@
-.fearless_tla_extension {
+.nrao_acro_extension {
   color: #494f56;
   font-family: Montserrat, Open Sans, sans-serif;
   font-weight: 700;
@@ -6,7 +6,7 @@
   margin: 0;
 }
 
-.fearless_tla_submit {
+.nrao_acro_submit {
   color: #fff;
   background: #5c3977;
   font-family: Montserrat, Open Sans, sans-serif;
@@ -20,7 +20,7 @@
   float: right;
 }
 
-.fearless_tla_submit:hover {
+.nrao_acro_submit:hover {
   background: #ee5340;
   text-decoration: none;
 }

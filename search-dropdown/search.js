@@ -3,7 +3,7 @@ import { fileReference } from "../base.js";
 (() => {
   // urls for user selection options
   let urls = [];
-  // list of available TLAs based on user selections
+  // list of available acronyms based on user selections
   let acronyms = [];
 
   // Search input box functionality
@@ -11,9 +11,9 @@ import { fileReference } from "../base.js";
   function display_results() {
     let numResults = 0;
     event.preventDefault();
-    var resultsElem = document.getElementById("fearless_tla_results");
+    var resultsElem = document.getElementById("nrao_acro_results");
     resultsElem.innerHTML = "";
-    var searchTerm = document.getElementById("fearless_tla_input").value;
+    var searchTerm = document.getElementById("nrao_acro_input").value;
     if (searchTerm && searchTerm.length > 1) {
       searchTerm = searchTerm.toUpperCase();
 
@@ -52,7 +52,7 @@ import { fileReference } from "../base.js";
   }
 
   document
-    .getElementById("fearless_tla_submit")
+    .getElementById("nrao_acro_submit")
     .addEventListener("click", display_results);
 
   // Get user settings

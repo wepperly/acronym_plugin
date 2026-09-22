@@ -1,37 +1,36 @@
-#fearless_tla_extension_options {
+#nrao_acro_extension_options {
   padding: 10px;
 }
 
-.fearless_tla_options {
-  color: #fff;
+.nrao_acro_options {  color: #fff;
   background: #5c3977;
   padding: 4px;
 }
 
-.fearless_tla_options label {
+.nrao_acro_options label {
   font-size: 14px;
 }
 
-#fearless_tla_extension_options #addl_files {
+#nrao_acro_extension_options #addl_files {
   width: 100%;
   margin-top: 4px;
 }
 
-#fearless_tla_extension_options #addl_files option:hover {
+#nrao_acro_extension_options #addl_files option:hover {
   box-shadow: 0 0 10px 10px #ee5340 inset;
   color: #fff;
 }
 
-#fearless_tla_extension_options #addl_files option:focus,
-#fearless_tla_extension_options #addl_files option:active {
+#nrao_acro_extension_options #addl_files option:focus,
+#nrao_acro_extension_options #addl_files option:active {
   background: linear-gradient(#ee5340, #ee5340);
   color: #fff;
 }
 
-#fearless_tla_extension_options #addl_files option:checked {
+#nrao_acro_extension_options #addl_files option:checked {
   background: linear-gradient(#d6d6d6, #d6d6d6);
 }
 
-#fearless_tla_extension_options #status {
+#nrao_acro_extension_options #status {
   color: #ee5340;
 }
