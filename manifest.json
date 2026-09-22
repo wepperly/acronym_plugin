@@ -5,7 +5,7 @@
   "manifest_version": 3,
 
   "action": {
-    "default_icon": "./images/nraoLogo.png",
+    "default_icon": "./icons/nraoLogo.png",
     "default_popup": "./search-dropdown/search.html"
   },
 
@@ -17,8 +17,8 @@
   },
 
   "icons": {
-    "16": "./images/nraoLogo16.png",
-    "48": "./images/nraoLogo48.png",
-    "128": "./images/nraoLogo128.png"
+    "16": "./icons/icon16.png",
+    "48": "./icons/icon48.png",
+    "128": "./icons/icon128.png"
   }
 }
