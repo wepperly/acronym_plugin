@@ -17,8 +17,8 @@
   },
 
   "icons": {
-    "16": "./images/fearless-logo16.png",
-    "48": "./images/fearless-logo48.png",
-    "128": "./images/fearless-logo128.png"
+    "16": "./images/nraoLogo16.png",
+    "48": "./images/nraoLogo48.png",
+    "128": "./images/nraoLogo128.png"
   }
 }
