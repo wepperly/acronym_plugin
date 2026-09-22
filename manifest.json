@@ -1,11 +1,14 @@
 {
   "name": "NRAO Acronyms",
   "description": "Select an acronym to expand it.",
-  "version": "1.1.1",
+  "version": "1.0",
   "manifest_version": 3,
 
   "action": {
-    "default_icon": "./icons/nraoLogo.png",
+    "default_icon": {
+      "16": "./icons/icon16.png",
+      "48": "./icons/icon48.png"
+    }
     "default_popup": "./search-dropdown/search.html"
   },
 
