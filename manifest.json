@@ -6,8 +6,8 @@
 
   "action": {
     "default_icon": {
-      "16": "./icons/icon16.png",
-      "48": "./icons/icon48.png"
+      "16": "icon16.png",
+      "48": "icon48.png"
     },
     "default_popup": "./search-dropdown/search.html"
   },
@@ -20,8 +20,15 @@
   },
 
   "icons": {
-    "16": "./icons/icon16.png",
-    "48": "./icons/icon48.png",
-    "128": "./icons/icon128.png"
-  }
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+
+"web_accessible_resources": [
+    {
+      "resources": ["acronyms/NRAO-Acronyms.json"],
+      "matches": ["<all_urls>"]
+    }
+]
 }

@@ -5,9 +5,11 @@ const fileReference = [
     ref: "default",
     name: "NRAO",
     default: true,
-    url:
-      "https://raw.githubusercontent.com/wepperly/acronym_plugin/main/acronyms/NRAO-Acronyms.json",
-  },
+//    url:
+//      "https://raw.githubusercontent.com/wepperly/acronym_plugin/main/acronyms/NRAO-Acronyms.json",
+ // Points to the local file in your extension directory
+    url: chrome.runtime.getURL("acronyms/NRAO-Acronyms.json"),
+   },
 ];
 
 export { fileReference };

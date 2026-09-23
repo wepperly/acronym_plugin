@@ -8,7 +8,7 @@ import { fileReference } from "../base.js";
 
   // Search input box functionality
   // display the results of the search in the extension dropdown
-  function display_results() {
+  function display_results(event) { // Added event argument to fix potential reference error
     let numResults = 0;
     event.preventDefault();
     var resultsElem = document.getElementById("nrao_acro_results");
@@ -84,16 +84,27 @@ import { fileReference } from "../base.js";
     }
   );
 
-  /*FETCH ACRONYM*/
+  /* MODIFIED FETCH ACRONYM LOGIC */
   const getAcronyms = async () => {
-    acronyms = await (
-      await fetch(fileReference.find(({ ref }) => ref === "default").url)
-    ).json();
+    try {
+      // Find the local extension URL defined in your base.js fileReference
+      const defaultReference = fileReference.find(({ ref }) => ref === "default");
+      
+      if (defaultReference && defaultReference.url) {
+        const response = await fetch(defaultReference.url);
+        acronyms = await response.json();
+      }
 
-    for (var i = 0; i < urls.length; i++) {
-      var tmpData = await (await fetch(urls[i])).json();
-      acronyms = acronyms.concat(tmpData);
+      // Fetch any additional custom or fallback URLs stored in user settings
+      for (var i = 0; i < urls.length; i++) {
+        const response = await fetch(urls[i]);
+        var tmpData = await response.json();
+        acronyms = acronyms.concat(tmpData);
+      }
+    } catch (error) {
+      console.error("Failed to load local or remote acronym assets:", error);
     }
+    
     return acronyms;
   };
 
